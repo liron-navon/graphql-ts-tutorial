@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "userId": "ccf4107f-8c8c-40a7-8719-8df3c6294706",
+      "text": "hello john",
+      "id": "043d7b8d-3724-4b29-b834-164a18814623",
+      "timestamp": "Sun, 03 Feb 2019 18:50:05 GMT"
+    },
+    {
+      "userId": "ccf4107f-8c8c-40a7-8719-8df3c6294706",
+      "text": "hello world",
+      "id": "b13e06e5-fbbd-4a33-8b52-fbd0147fae03",
+      "timestamp": "Sun, 03 Feb 2019 18:50:17 GMT"
+    },
+    {
+      "userId": "ccf4107f-8c8c-40a7-8719-8df3c6294706",
+      "text": "hello world",
+      "id": "bb1ce8ca-ddc3-4f95-b8cd-c34ac426b6b4",
+      "timestamp": "Sun, 03 Feb 2019 18:52:29 GMT"
+    }
+  ],
+  "users": [
+    {
+      "name": "john doe",
+      "email": "john.doe@gmail.com",
+      "id": "ccf4107f-8c8c-40a7-8719-8df3c6294706",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNjZjQxMDdmLThjOGMtNDBhNy04NzE5LThkZjNjNjI5NDcwNiIsImlhdCI6MTU0OTIxODkwNn0.E8tTQxmzrkHpksgXq0egP4JDjz6N-Lr31PegRc9BJIQ"
+    }
+  ]
+}
