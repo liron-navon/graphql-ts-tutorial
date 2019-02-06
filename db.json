@@ -23,8 +23,9 @@
     {
       "name": "john doe",
       "email": "john.doe@gmail.com",
+      "password": "$2a$10$7h/0SQ4FXRG5eX3602o3/.Ak08EEuruI..iDU01gijGxnExUJPjZW",
       "id": "ccf4107f-8c8c-40a7-8719-8df3c6294706",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNjZjQxMDdmLThjOGMtNDBhNy04NzE5LThkZjNjNjI5NDcwNiIsImlhdCI6MTU0OTIxODkwNn0.E8tTQxmzrkHpksgXq0egP4JDjz6N-Lr31PegRc9BJIQ"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRjNTVmYjQyLTVkZDktNDFlNS1hYzczLTdhODNlMWVmY2Y2NiIsImlhdCI6MTU0OTQ0NjY1Mn0.E1VEyE4gvv7jb151JICl6YcndVSveWpEkjTHKtOm0pA"
     }
   ]
 }

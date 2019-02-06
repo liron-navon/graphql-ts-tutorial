@@ -23,8 +23,6 @@ export async function getPublicUser(id: string): Promise<GQL.PublicUser> {
   const user = db.get('users')
         .find({ id })
         .value();
-  delete user.jwt;
-  delete user.password;
   return user;
 }
 
@@ -35,8 +33,6 @@ export async function getUserByPasswordAndEmail(input: GQL.InputLogin): Promise<
   const user = db.get('users')
         .find({ email, password: hash })
         .value();
-
-  delete user.password;
   return user;
 }
 
@@ -45,7 +41,6 @@ export async function getUserByToken(token: string): Promise<GQL.User> {
   const user = db.get('users')
         .find({ token })
         .value();
-  delete user.password;
   return user;
 }
 
@@ -77,7 +72,6 @@ export async function registerUser(userInput: GQL.InputLogin) {
   db.get('users')
         .push(user)
         .write();
-  delete user.password;
   return user;
 }
 
