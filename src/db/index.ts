@@ -4,6 +4,13 @@ import * as jsonwebtoken from 'jsonwebtoken';
 import * as bcrypt from 'bcrypt';
 import { v4 as createUUID } from 'uuid';
 
+/*
+* NOTICE! these secrets are here for simplicity,
+* please don't save secrets inside your code, 
+* but in environment variables or config files that will not be in the repository
+*
+* this entire file is only to mock a local database. it is not ment to act as a real database.
+*/
 // some salt for hashing the password
 const hashSalt = '$2a$10$7h/0SQ4FXRG5eX3602o3/.aO.RYkxKuhGkzvIXHLUiMJlFt1P.6Pe';
 // a secret for signing with jwt
