@@ -19,7 +19,7 @@
     "acorn": "^6.0.0",
     "apollo": "^2.3.1",
     "apollo-server": "^2.3.3",
-    "bcrypt": "^3.0.3",
+    "bcrypt": ">=5.0.0",
     "core-js": "3.0.0-beta.11",
     "cors": "^2.8.5",
     "express": "^4.16.4",
